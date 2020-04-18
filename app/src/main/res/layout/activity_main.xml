@@ -17,8 +17,9 @@
 <!--       android:layout_width="match_parent"-->
 <!--       android:layout_height="wrap_content"/>-->
    <SeekBar
+       android:max="5"
+       style="@style/Widget.AppCompat.SeekBar.Discrete"
        android:id="@+id/seekbar"
-       android:thumb="@mipmap/ic_launcher"
        android:layout_width="match_parent"
        android:layout_height="wrap_content"
        android:progress="50"
